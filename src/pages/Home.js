@@ -20,7 +20,7 @@ function Home() {
       {/* QR 코드 박스 */}
       <div className="bg-white shadow-xl rounded-2xl p-8 mb-8 border-4 border-pink-200 hover:scale-105 transition">
         <QRCodeCanvas
-          value="http://localhost:3000/join" // 배포 시 주소 변경
+          value="https://rotte-event-git-main-heeos-projects.vercel.app?_vercel_share=Hu5XhfjVkiN7HH1LDVf3ZE82juEghTTw" // 배포 시 주소 변경
           size={220}
           bgColor="#ffffff"
           fgColor="#ec4899" // Tailwind pink-500
